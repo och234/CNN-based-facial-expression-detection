@@ -10,4 +10,5 @@ The dataset used is CK+ based on
 – Lucey, P., Cohn, J. F., Kanade, T., Saragih, J., Ambadar, Z., & Matthews, I. (2010). The Extended Cohn-Kanade Dataset (CK+): A complete expression dataset for action unit and emotion-specified expression. Proceedings of the Third International Workshop on CVPR for Human Communicative Behavior Analysis (CVPR4HB 2010), San Francisco, USA, 94-101
 
 The ideal of sorting the images into several folders was gotten from
+
 Palkab (2016). Emotion Recognition With Python, OpenCV and a Face Dataset. www.paulvangent.com 
