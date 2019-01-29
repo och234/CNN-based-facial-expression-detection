@@ -1,7 +1,7 @@
 # CNN-based-emotion-detection
 This model uses Convolutional Neural Network to learn 8 different facial expression such as "neutral", "anger", "contempt", "disgust", "fear", "happy", "sadness" and "surprise". I can't upload the dataset as the authors do not authorize such, you can request the dataset here http://www.consortium.ri.cmu.edu/ckagree/.
 
-This model was able to get an accuracy of 87%. I couldn't upload the jupyter notebook copy because the cluster i use now is having problem accepting jupyer notebook. But you can download the dataset from the link given, use Palkab method as referenced below to sort the images in different folders and run this my model.
+This model was able to get an accuracy of 87%. I couldn't upload the jupyter notebook copy because of issues with my system. But you can download the dataset from the link given, use Palkab method as referenced below to sort the images in different folders and run this my model.
 
 The dataset used is CK+ based on
 
