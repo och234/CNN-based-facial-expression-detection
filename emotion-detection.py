@@ -68,12 +68,12 @@ def EmotionModel(shape):
     X = ZeroPadding2D((3, 3))(input_image) #using a padding of 3 to achieve same padding
     X = Conv2D(32, (7, 7), strides=(1,1))(X) #using 32 filters of size 7*7 and strides of 1
     X = BatchNormalization(axis=3, name='bn0')(X)
-    X = Activation('relu')(X) #using relu activation function
+    X = Activation('relu')(X) #using relu activation function add non linearlity to the model
     X = Conv2D(64, (7, 7), strides=(1,1), name='conv0')(X)#using 64 filters of size 7*7 and strides of 1    
     
     X = Conv2D(128, (5, 5), strides=(1,1), name='conv2')(X) #using 128 filters of size 5*5 and strides of 1
     
-    X = MaxPooling2D((2, 2), name='max_pool1')(X)#using max pooling with a filter size of 2 * 2
+    X = MaxPooling2D((2, 2), name='max_pool1')(X)#using max pooling with a filter size of 2 * 2 to reduce spatial dimension
      
     X = Flatten()(X) #converting the CNN model to fully-connected model
     
